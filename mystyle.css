@@ -1,0 +1,47 @@
+/*
+comment
+*/
+h1{
+    font-family: 'TH SarabunPSK';
+    font-size: 60px;
+    color: rgb(253, 111, 135);
+}
+hr{
+    color: blue;
+    border: 2px solid;
+}
+.myfont{
+    font-family: 'Times New Roman' , Times , serif;
+}
+.coRed{
+    color: red;
+}
+.h1{
+    font-size: 16pt;
+}
+#myP{
+    font-size: 48pt;
+}
+hr{
+    color: rgb(0, 0, 0);
+    border: 2px solid;
+} /*hr เส้น*/
+.box{
+    width : 480px;
+    height: 480px;
+    color: rgba(255, 30, 45 , 0.5);
+    background-color: rgb(226, 125, 181);
+    text-align: center;
+    border: 5px dashed rgb(255, 0, 179);
+    padding-top: 10px;
+    margin: 50px 25px;
+}
+.box:hover{
+    background-color: palevioletred;
+}
+a{
+    color: #fc0808;
+}
+a:link{
+    color: #b86262;
+}
