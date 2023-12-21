@@ -80,8 +80,10 @@
     $arry2[] = 2;
     $arry2[] = 3;
     $arry2[] = "Hello";
-    $arry2['SE'] = "World";
-?> <?php print_r($arry);?>
+    $arry2[] = "World";
+?> 
+    <?php print_r($arry);?>
+
     <pre><?php print_r($arry);?></pre>
     <pre><?php print_r($arry1);?></pre>
     <pre><?php print_r($arry2);?></pre>
@@ -90,9 +92,26 @@
     <h3><?php echo $arry2[$i]; ?></h3>
     <?php } ?>
 
-    <?php foreach($arry2 as $key => $value){ ?>
-    <h3><?php echo $arry2[$key]; ?>: <?php echo $value; ?></h3>
+    <?php foreach($arry2 As $key => $value){ ?>
+    <h3><?php echo $arry2[$key]; ?>
+        : <?php echo $key; ?>
+        : <?php echo $value; ?></h3>
     <?php } ?>
+    <?php
+     prE($arry);
+    ?>
+    <?php
+    function pre($value){
+        echo "<pre>";
+        print_r($value);
+        echo "</pre>";
+    }
+    //function pRe($value){
+    //    echo "<pre>2";
+    //    print_r($value);
+    //    echo "</pre>";
+    //}
+     ?>
 </body>
 
 </html>
